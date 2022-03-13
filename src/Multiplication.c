@@ -44,20 +44,20 @@ void mult(uint32_t a1, uint32_t a2, uint32_t* a0) {
     // a3 is upper half of product
     uint32_t a3 = 0;
 
-    uint32_t t0 = 0;
     uint32_t t1 = 0;
-    for (int i = 0; i < 32; ++i) {
+    uint32_t t2 = 0;
+    for (int t0 = 0; t0 < 32; ++t0) {
         // get LSB of product
-        t0 = *a0 & 1;
+        t1 = *a0 & 1;
 
         // test LSB of product
-        if (t0)
+        if (t1)
             a3 += a1;
 
         // shift product right 1 bit
-        t1 = a3 << 31;
+        t2 = a3 << 31;
         *a0 >>= 1;
-        *a0 |= t1;
+        *a0 |= t2;
         a3 >>= 1;
     }
 }
