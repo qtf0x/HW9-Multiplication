@@ -5,6 +5,8 @@
 
     Vincent Marias
 
+<br>
+
 2) Pseudocode (in C) for your implementation.
 
     ```c
@@ -41,11 +43,15 @@
     }
     ```
 
+<br>
+
 3) Describe the challenges you encountered and how you surmounted them.
 
 - The biggest challenge for me was first understanding how the optimized algorithm actually works. I had to read through the section in the textbook carefully and examine the diagrams.
 
 - To make this assignment easier, I made sure to write my C code such that it resembled the assembly instructions as closely as possible. I even used this register names as variable names. This was an effective strategy.
+
+<br>
 
 4) What did you like about the assignment?
 
@@ -53,9 +59,13 @@
 
 - I also liked that this assignment was very straightforward. It wasn't exactly easy, but the instructions were very clear and I knew how to go about solving it.
 
+<br>
+
 5) How long did you spend working on this assignment?
 
     ~2.5 hours
+
+<br>
 
 6) A description of any features you added for extra credit (if any)
 
